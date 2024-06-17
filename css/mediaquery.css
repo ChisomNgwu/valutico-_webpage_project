@@ -1,6 +1,15 @@
  /* ===========SMALL DESKTOP DEVICES============ */
 
- @media (max-width: 1080px) {
+ @media (max-width: 1279px) {
+
+    .container{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 70px;
+    }
 
     .nav-button {
         display: none;
@@ -43,7 +52,10 @@
 
  /* =========FOR TABLETS DEVICES======== */
 
- @media (max-width: 768px) {
+ @media (max-width: 900px) {
+    .container{
+        padding-inline: 30px;
+    }
 
     .container nav ul a {
         font-size: 18px;
@@ -139,12 +151,16 @@
  /* || STYLES FOR ALL MOBILE SCREENS */
 
  @media (max-width: 740px) {
+    .container{
+        padding-inline: 30px;
+    }
     
- nav {
+.desktop-nav {
+    width: 100%;
      display: flex;
     align-items: center;
     justify-content: center;
-    gap: 180px;
+    gap: 160px;
 }
 
 
@@ -153,9 +169,8 @@ header .nav-links  {
 }
 
     
-.mobile-nav {
+.nav_mobile_wrapper {
     display: none;
-    border-radius: 5px;
 }
 
     
@@ -188,6 +203,10 @@ header .nav-links  {
     font-size: 16px;
     line-height: 32px;
     padding: 15px 0 40px 0;
+}
+
+.hero_btn .btn {
+    width: 150px;
 }
 
 
@@ -225,11 +244,6 @@ header .nav-links  {
 }
 
 
-.why_section {  
-    padding: 30px 40px 30px 40px;
-}
-
-
 .why-wrapper h1 {
     font-size: 20px;
     font-weight: 700;
@@ -255,15 +269,16 @@ header .nav-links  {
     font-weight: 700;
 }
 
-.accurate_valuation {
-    padding: 69px 40px 69px 40px;
-}
 
 
 .valuation-container {
     flex-direction: column-reverse;
 }
 
+
+.valuation-text-wrapper {
+    width: 400px;
+}
 
 .valuation-head-text {
     padding-bottom: 70px;
@@ -282,14 +297,16 @@ header .nav-links  {
   .feature :first-child {
     padding-top: 50px;
   }
+
+  .image-section {
+    width: 400px;
+  }
   
   .image-section img {
     width: 300px;
     height: 460px;
 }
 
-.mobile-nav {
-    display: block;
-}
-
  }
+
+

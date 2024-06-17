@@ -1,4 +1,4 @@
-const  mobile_menu = document.querySelector('.mobile-nav');
+const  mobile_menu = document.querySelector('.nav_mobile_wrapper');
 const  popBar = document.getElementById('popBar');
 const  collapseBar = document.getElementById('collapseBar');
 
