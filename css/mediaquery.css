@@ -235,34 +235,37 @@ header .nav-links  {
 .trustedby_fluid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    padding-inline: 25px;
+    gap: 15px;
 }
 
 .trustedby_fluid img {
-    width: 150px;
+    width: 148px;
     height: 62px;
 }
 
-.why-wrapper {
-    width: 210px;
+.why_section {
+    padding-inline: 50px;
 }
 
+.why-head-text {
+    width: 275px ;
+}
 
 .why-wrapper h1 {
     font-size: 20px;
-    font-weight: 700;
-    line-height: 27px;
-    padding: 0 0 25px 0;
+    line-height: 20px;
+    padding-bottom: 20px;
 }
 
 .why-wrapper p {
-    padding-top: 18px;
-    font-size: 16px;
-    font-weight: 500;
+    padding-top: 16px;
+    font-size: 15px;
 }
 
 
 .why_box {
+    width: 275px;
     gap: 25px;
 }
 
@@ -276,7 +279,9 @@ header .nav-links  {
 
 }
 
-
+.accurate_valuation {
+    padding-inline: 40px;
+}
 
 .valuation-container {
     flex-direction: column-reverse;
@@ -287,38 +292,38 @@ header .nav-links  {
 }
 
 .valuation-head-text p{
-    font-size: 16px;
-    line-height: 23px;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 
 .valuation-text-wrapper {
-    width: 180px;
+    width: 320px;
 }
 
 .valuation-head-text {
-    width: 180px;
+    width: 290px;
     padding-bottom: 70px;
 }
 
 
 .feature {
-    width: 200px;
+    width: 300px;
     padding-bottom: 20px;
   }
 
   .feature p {
-    font-size: 16px;
+    font-size: 17px;
   }
 
 
   .image-section {
-    width: 200px;
+    width: 320px;
   }
   
   .image-section img {
-    width: 200px;
-    height: 300px;
+    width: 290px;
+    height: 330px;
 }
 
  }
