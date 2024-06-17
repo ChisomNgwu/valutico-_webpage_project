@@ -270,7 +270,10 @@ header .nav-links  {
 .why_box h3 {
     font-size: 18px;
     line-height: 24px;
-    font-weight: 700;
+}
+.why_box p {
+    font-size: 15px;
+
 }
 
 
